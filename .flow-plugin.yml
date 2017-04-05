@@ -1,0 +1,16 @@
+
+name: java_build
+version: 0.0.1
+language: java
+description: Build dependencies use `mvn compile`
+public: true
+tags:
+  - java
+  - build
+inputs:
+outputs:
+script_path: ./run.sh  
+  
+template: |  
+  
+  
