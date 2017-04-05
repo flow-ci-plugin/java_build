@@ -1,5 +1,5 @@
 
-# java_compile Step
+# java_build Step
 Install dependencies use `mvn compile`
 
 ### INPUTS
