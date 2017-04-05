@@ -1,5 +1,5 @@
 
-# mvn_compile Step
+# java_compile Step
 Install dependencies use `mvn compile`
 
 ### INPUTS
@@ -8,10 +8,10 @@ Install dependencies use `mvn compile`
 
 ```yml
 steps:
-  - name: mvn_build
+  - name: java_build
     enable: true
     failure: true
     plugin:
-      name: mvn_build
+      name: java_build
       inputs:
 ```
